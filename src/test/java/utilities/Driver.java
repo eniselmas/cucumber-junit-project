@@ -16,7 +16,7 @@ public class Driver {
     // Creating a private constructor, we are closing access to the
     // object of this class from outside the class
 
-    private Driver{
+    private Driver() {
 
     }
 
