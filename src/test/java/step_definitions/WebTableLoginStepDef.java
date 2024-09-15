@@ -1,4 +1,4 @@
-package utilities;
+package step_definitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -6,6 +6,8 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import pages.WebTableLoginPage;
+import utilities.ConfigurationReader;
+import utilities.Driver;
 
 import java.util.Map;
 

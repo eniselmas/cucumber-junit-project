@@ -1,4 +1,4 @@
-package utilities;
+package step_definitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -10,6 +10,9 @@ import pages.AllOrdersPage;
 import pages.BasePage;
 import pages.WebTableLoginPage;
 import pages.WebTableOrderPage;
+import utilities.BrowserUtils;
+import utilities.ConfigurationReader;
+import utilities.Driver;
 
 import java.util.List;
 
